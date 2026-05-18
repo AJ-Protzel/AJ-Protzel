@@ -6,9 +6,9 @@ Hello there!👋🏽 I'm an early-career Data Analyst with expertise in data cle
 This is my [portfolio]() where I showcase my projects!
 
 ### Tools 💻 
-Programming: Python, SQL, R, C++, C, C#, Javascript, Assembly
-Visualization: Tableau, Power BI
-Data Analysis: Excel, Exploratory Data Analysis (EDA), Data Cleaning
+- Programming: Python, SQL, R, C++, C, C#, Javascript, Assembly
+- Visualization: Tableau, Power BI
+- Data Analysis: Excel, Exploratory Data Analysis (EDA), Data Cleaning
 
 ### Certifications 🎓
 - Google Data Analytics Professional Certificate (2024)
