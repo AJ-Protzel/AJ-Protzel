@@ -1,24 +1,34 @@
-# Who's Adrien and What's He Building? 📊👨🏻‍💻
+# Who's Adrien and What's He Building? 🤖📊
 
-Hello there!👋🏽 I'm an early-career **data engineer** — I build pipelines that keep running without me: ingestion from messy real-world sources, deterministic cleaning and filtering, and scheduled jobs that fail loudly instead of quietly. I came up through analytics, so I care about whether the numbers at the end actually mean anything.
+Hello there!👋🏽 I build data automation and LLM applications with Claude. I design the system, write the evals and their expected answers by hand, and review what Claude Code writes. M.Eng. in Computer Science from Oregon State; before that I evaluated AI model outputs at DataAnnotation.
 
-### Currently Building 🔧
-**[apply-engine](https://github.com/AJ-Protzel/apply-engine)** — a job-application pipeline that pulls postings from nine public ATS APIs on a daily schedule, normalizes and dedupes them across sources, filters them through a tested rule layer, and ranks what survives. Runs on GitHub Actions into Postgres, with 49 tests on the filter logic and a kill-rule log, so an over-strict filter shows up as a number instead of a hunch.
+What I aim for: small systems that are cheap to run, a model only where judgment is needed and code for everything else, and failures that show up where someone will read them.
+
+### Featured 🔧
+| Project | What it shows |
+|---|---|
+| [lesson-02-txn-sweep-agent](https://github.com/AJ-Protzel/lesson-02-txn-sweep-agent) | An agent that sweeps a customer's transaction table, graded by an eval written before the agent existed. Answer key computed by hand in SQL, 25 of 27 full passes, every failure logged as a decision, least-access database keys. |
+| [tracking-engine-showcase](https://github.com/AJ-Protzel/tracking-engine-showcase) ([live demo](https://aj-protzel.github.io/tracking-engine-showcase/)) | Public mirror of my private household tracking system on invented data: bank feed, a nightly Claude email routine, a rental-listing sweep, Supabase with row-level security. Built on one rule: schedule only what arrives on its own. |
+| [wedding-tracker](https://github.com/AJ-Protzel/wedding-tracker) ([live demo](https://aj-protzel.github.io/wedding-tracker/)) | Phone-first wedding planner in one HTML file on Supabase, built for a real 30-guest wedding. |
+| [lesson-01-csv-qa-agent](https://github.com/AJ-Protzel/lesson-01-csv-qa-agent) | Plain-English questions over a CSV: Claude writes pandas, the code runs locally, a regression suite grades it. |
+| [Transaction-Pipeline](https://github.com/AJ-Protzel/Transaction-Pipeline) | ETL that reconciles five bank export formats into one categorized dataset, tested in GitHub Actions. |
+| [apply-engine](https://github.com/AJ-Protzel/apply-engine) (archived) | Job-posting pipeline over seven public ATS APIs with 164 tests and a rejection log that measured its own filters. |
 
 ### Projects 📚
-This is my [portfolio](https://github.com/AJ-Protzel/Portfolio-Guide/blob/main/README.md) where I showcase my projects!
+Everything else, including analytics and coursework, is in my [portfolio](https://github.com/AJ-Protzel/Portfolio-Guide/blob/main/README.md).
 
 ### Tools 💻
-- **Languages:** Python, SQL, C++, R, JavaScript, C, C#, Assembly
-- **Data:** pandas, PySpark, PostgreSQL/Supabase, SQLite, ETL design, schema modeling
-- **Workflow:** Git/GitHub, GitHub Actions, pytest, scheduled jobs
-- **Analysis & BI:** Tableau, Power BI, Excel, exploratory data analysis
+- **AI:** Claude Code, Anthropic API, Claude skills, routines and MCP connectors, Gemini API
+- **Languages:** Python, SQL, JavaScript, TypeScript, C++
+- **Data:** PostgreSQL/Supabase, SQLite, pandas, PySpark
+- **Workflow:** Git, GitHub Actions, pytest, Playwright, Cloudflare Pages
+- **Analysis & BI:** Power BI, Tableau, Excel
 
 ### Background 🎓
-Graduate coursework at Oregon State University in database management systems (built a binary storage manager and hash-based index in C++), machine learning, data science tooling, computer graphics, and software engineering methods.
+M.Eng. Computer Science (2026) and B.S. Computer Science (2022), Oregon State University. Graduate coursework in artificial intelligence, machine learning, database management systems (built a binary storage manager and hash-based index in C++), data science tooling and software engineering methods.
 
 **Certifications**
-- Google Data Analytics Professional Certificate (2024)
+- Google Data Analytics Professional Certificate (2023)
 - CITI Responsible Conduct of Research for Engineers (2026)
 - CITI Human Research: Social/Behavioral Research Investigators and Key Personnel (2025)
 
